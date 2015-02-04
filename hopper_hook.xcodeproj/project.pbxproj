@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E44E5A7A1A3FF60D00F205B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44E5A791A3FF60D00F205B8 /* Cocoa.framework */; };
+		E44E5A841A3FF60D00F205B8 /* hopper_hook.m in Sources */ = {isa = PBXBuildFile; fileRef = E44E5A831A3FF60D00F205B8 /* hopper_hook.m */; };
+		E44E5A8B1A3FF60D00F205B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44E5A8A1A3FF60D00F205B8 /* XCTest.framework */; };
+		E44E5A8C1A3FF60E00F205B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44E5A791A3FF60D00F205B8 /* Cocoa.framework */; };
+		E44E5A8F1A3FF60E00F205B8 /* hopper_hook.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E44E5A761A3FF60D00F205B8 /* hopper_hook.dylib */; };
+		E44E5A951A3FF60E00F205B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E44E5A931A3FF60E00F205B8 /* InfoPlist.strings */; };
+		E44E5A971A3FF60E00F205B8 /* hopper_hookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E44E5A961A3FF60E00F205B8 /* hopper_hookTests.m */; };
+		E44E5AA11A3FF63000F205B8 /* init.mm in Sources */ = {isa = PBXBuildFile; fileRef = E44E5AA01A3FF63000F205B8 /* init.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E44E5A8D1A3FF60E00F205B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E44E5A6E1A3FF60D00F205B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E44E5A751A3FF60D00F205B8;
+			remoteInfo = hopper_hook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E44E5A761A3FF60D00F205B8 /* hopper_hook.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = hopper_hook.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44E5A791A3FF60D00F205B8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E44E5A7C1A3FF60D00F205B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E44E5A7D1A3FF60D00F205B8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E44E5A7E1A3FF60D00F205B8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E44E5A811A3FF60D00F205B8 /* hopper_hook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hopper_hook-Prefix.pch"; sourceTree = "<group>"; };
+		E44E5A821A3FF60D00F205B8 /* hopper_hook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hopper_hook.h; sourceTree = "<group>"; };
+		E44E5A831A3FF60D00F205B8 /* hopper_hook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hopper_hook.m; sourceTree = "<group>"; };
+		E44E5A891A3FF60D00F205B8 /* hopper_hookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hopper_hookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44E5A8A1A3FF60D00F205B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E44E5A921A3FF60E00F205B8 /* hopper_hookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hopper_hookTests-Info.plist"; sourceTree = "<group>"; };
+		E44E5A941A3FF60E00F205B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E44E5A961A3FF60E00F205B8 /* hopper_hookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hopper_hookTests.m; sourceTree = "<group>"; };
+		E44E5AA01A3FF63000F205B8 /* init.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = init.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E44E5A731A3FF60D00F205B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44E5A7A1A3FF60D00F205B8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44E5A861A3FF60D00F205B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44E5A8F1A3FF60E00F205B8 /* hopper_hook.dylib in Frameworks */,
+				E44E5A8C1A3FF60E00F205B8 /* Cocoa.framework in Frameworks */,
+				E44E5A8B1A3FF60D00F205B8 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E44E5A6D1A3FF60D00F205B8 = {
+			isa = PBXGroup;
+			children = (
+				E44E5A7F1A3FF60D00F205B8 /* hopper_hook */,
+				E44E5A901A3FF60E00F205B8 /* hopper_hookTests */,
+				E44E5A781A3FF60D00F205B8 /* Frameworks */,
+				E44E5A771A3FF60D00F205B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E44E5A771A3FF60D00F205B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E44E5A761A3FF60D00F205B8 /* hopper_hook.dylib */,
+				E44E5A891A3FF60D00F205B8 /* hopper_hookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E44E5A781A3FF60D00F205B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E44E5A791A3FF60D00F205B8 /* Cocoa.framework */,
+				E44E5A8A1A3FF60D00F205B8 /* XCTest.framework */,
+				E44E5A7B1A3FF60D00F205B8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E44E5A7B1A3FF60D00F205B8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E44E5A7C1A3FF60D00F205B8 /* Foundation.framework */,
+				E44E5A7D1A3FF60D00F205B8 /* CoreData.framework */,
+				E44E5A7E1A3FF60D00F205B8 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E44E5A7F1A3FF60D00F205B8 /* hopper_hook */ = {
+			isa = PBXGroup;
+			children = (
+				E44E5A821A3FF60D00F205B8 /* hopper_hook.h */,
+				E44E5A831A3FF60D00F205B8 /* hopper_hook.m */,
+				E44E5A801A3FF60D00F205B8 /* Supporting Files */,
+				E44E5AA01A3FF63000F205B8 /* init.mm */,
+			);
+			path = hopper_hook;
+			sourceTree = "<group>";
+		};
+		E44E5A801A3FF60D00F205B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E44E5A811A3FF60D00F205B8 /* hopper_hook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E44E5A901A3FF60E00F205B8 /* hopper_hookTests */ = {
+			isa = PBXGroup;
+			children = (
+				E44E5A961A3FF60E00F205B8 /* hopper_hookTests.m */,
+				E44E5A911A3FF60E00F205B8 /* Supporting Files */,
+			);
+			path = hopper_hookTests;
+			sourceTree = "<group>";
+		};
+		E44E5A911A3FF60E00F205B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E44E5A921A3FF60E00F205B8 /* hopper_hookTests-Info.plist */,
+				E44E5A931A3FF60E00F205B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E44E5A741A3FF60D00F205B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E44E5A751A3FF60D00F205B8 /* hopper_hook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44E5A9A1A3FF60E00F205B8 /* Build configuration list for PBXNativeTarget "hopper_hook" */;
+			buildPhases = (
+				E44E5A721A3FF60D00F205B8 /* Sources */,
+				E44E5A731A3FF60D00F205B8 /* Frameworks */,
+				E44E5A741A3FF60D00F205B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hopper_hook;
+			productName = hopper_hook;
+			productReference = E44E5A761A3FF60D00F205B8 /* hopper_hook.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		E44E5A881A3FF60D00F205B8 /* hopper_hookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44E5A9D1A3FF60E00F205B8 /* Build configuration list for PBXNativeTarget "hopper_hookTests" */;
+			buildPhases = (
+				E44E5A851A3FF60D00F205B8 /* Sources */,
+				E44E5A861A3FF60D00F205B8 /* Frameworks */,
+				E44E5A871A3FF60D00F205B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E44E5A8E1A3FF60E00F205B8 /* PBXTargetDependency */,
+			);
+			name = hopper_hookTests;
+			productName = hopper_hookTests;
+			productReference = E44E5A891A3FF60D00F205B8 /* hopper_hookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E44E5A6E1A3FF60D00F205B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = bingMini;
+				TargetAttributes = {
+					E44E5A881A3FF60D00F205B8 = {
+						TestTargetID = E44E5A751A3FF60D00F205B8;
+					};
+				};
+			};
+			buildConfigurationList = E44E5A711A3FF60D00F205B8 /* Build configuration list for PBXProject "hopper_hook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E44E5A6D1A3FF60D00F205B8;
+			productRefGroup = E44E5A771A3FF60D00F205B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E44E5A751A3FF60D00F205B8 /* hopper_hook */,
+				E44E5A881A3FF60D00F205B8 /* hopper_hookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E44E5A871A3FF60D00F205B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44E5A951A3FF60E00F205B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E44E5A721A3FF60D00F205B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44E5A841A3FF60D00F205B8 /* hopper_hook.m in Sources */,
+				E44E5AA11A3FF63000F205B8 /* init.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44E5A851A3FF60D00F205B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44E5A971A3FF60E00F205B8 /* hopper_hookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E44E5A8E1A3FF60E00F205B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E44E5A751A3FF60D00F205B8 /* hopper_hook */;
+			targetProxy = E44E5A8D1A3FF60E00F205B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E44E5A931A3FF60E00F205B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44E5A941A3FF60E00F205B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E44E5A981A3FF60E00F205B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E44E5A991A3FF60E00F205B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E44E5A9B1A3FF60E00F205B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hopper_hook/hopper_hook-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E44E5A9C1A3FF60E00F205B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hopper_hook/hopper_hook-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E44E5A9E1A3FF60E00F205B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hopper_hook.dylib";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hopper_hook/hopper_hook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hopper_hookTests/hopper_hookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E44E5A9F1A3FF60E00F205B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hopper_hook.dylib";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hopper_hook/hopper_hook-Prefix.pch";
+				INFOPLIST_FILE = "hopper_hookTests/hopper_hookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E44E5A711A3FF60D00F205B8 /* Build configuration list for PBXProject "hopper_hook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44E5A981A3FF60E00F205B8 /* Debug */,
+				E44E5A991A3FF60E00F205B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44E5A9A1A3FF60E00F205B8 /* Build configuration list for PBXNativeTarget "hopper_hook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44E5A9B1A3FF60E00F205B8 /* Debug */,
+				E44E5A9C1A3FF60E00F205B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E44E5A9D1A3FF60E00F205B8 /* Build configuration list for PBXNativeTarget "hopper_hookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44E5A9E1A3FF60E00F205B8 /* Debug */,
+				E44E5A9F1A3FF60E00F205B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E44E5A6E1A3FF60D00F205B8 /* Project object */;
+}
